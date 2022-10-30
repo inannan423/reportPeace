@@ -4,7 +4,7 @@ on:
   repository_dispatch:
     types: [autoReportPeace]
   schedule:
-    - cron: '11 16,0 * * *'
+    - cron: '11 0 * * *'
       # UTC 时间 16：11和 0：11对北京时间 0：11和 8：11
   workflow_dispatch:
 jobs:
